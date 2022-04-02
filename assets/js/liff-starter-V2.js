@@ -61,7 +61,7 @@ function initApp() {
     console.log("LIFF initialized!");
     if (!liff.isLoggedIn()) {
         var button = document.getElementById("liffSendMessage");
-        button.innerHTML = "Log In";
+        button.innerHTML = "登入";
         button.id = "liffLogin";
     } else {
         if (!liff.isInClient() && getParameterByName("type") !== undefined) {
@@ -70,7 +70,7 @@ function initApp() {
             element.href = "#";
             element.id = "liffLogout";
             element.className = "btn btn-lg btn-danger btn-block";
-            element.innerHTML = "Log Out";
+            element.innerHTML = "登出";
             parent.insertBefore(element, parent.childNodes[6]);
         }
         liff.getProfile().then(profile => {
