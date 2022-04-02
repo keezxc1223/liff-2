@@ -136,7 +136,7 @@ function initContent(type) {
             input.value = getParameterByName("text");
         }
         label.htmlFor = "text";
-        label.innerHTML = "Text message";
+        label.innerHTML = "文字訊息";
         element.appendChild(input);
         element.appendChild(label);
         parent.insertBefore(element, parent.childNodes[4]);
