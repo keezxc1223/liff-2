@@ -52,7 +52,7 @@ function initLiff() {
                 if (getParameterByName("auto") == "yes") {
                     sendLiffMessage();
                 }
-                document.getElementById("greet").innerHTML = "Hi, " + userDisplayName + " ౼ Nice to meet you";
+                document.getElementById("greet").innerHTML = "你好, " + userDisplayName + " ౼ Nice to meet you";
             }).catch((err) => {
                 console.error("LIFF getProfile failed", err);
             });
@@ -263,7 +263,7 @@ function sendLiffMessage() {
                         aspectMode: "cover",
                         action: {
                             type: "uri",
-                            uri: "line://app/1602289196-4xoE1JEr?auto=yes&type=image&downloadUrl=" + profile.pictureUrl + "&previewUrl=" + profile.pictureUrl
+                            uri: "line://app/1654206673-P3MaRNpN?auto=yes&type=image&downloadUrl=" + profile.pictureUrl + "&previewUrl=" + profile.pictureUrl
                         }
                     },
                     body: {
@@ -304,7 +304,7 @@ function sendLiffMessage() {
                                 action: {
                                     type: "uri",
                                     label: "Square",
-                                    uri: "https://line.me/ti/g2/JGUODBE4RE"
+                                    uri: "https://lin.ee/3fKeC6h"
                                 },
                                 flex: 1
                             },
@@ -315,7 +315,7 @@ function sendLiffMessage() {
                                 action: {
                                     type: "uri",
                                     label: "Profile",
-                                    uri: "line://app/1602289196-4xoE1JEr?type=profile"
+                                    uri: "line://app/1654206673-P3MaRNpN?type=profile"
                                 },
                                 flex: 2
                             },
