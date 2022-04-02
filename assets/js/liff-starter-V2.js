@@ -323,7 +323,7 @@ function sendLiffMessage() {
     var type = document.getElementById("type").value;
     var client = new HttpClient();
     var userDisplayName = "Unknown";
-    var userPictureUrl = "https://salernoletteratura.com/uploads/author/AXC_5666.png";
+    var userPictureUrl = "https://i.imgur.com/6DmTQk6.png";
     var userStatusMessage = "";
     liff.getProfile().then(profile => {
         userDisplayName = profile.displayName;
