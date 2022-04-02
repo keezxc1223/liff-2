@@ -502,5 +502,5 @@ function removeElements(classname) {
 }
 
 function sendAlertIfNotInClient() {
-    alert('This button is unavailable as LIFF is currently being opened in an external browser.');
+    alert('此按鈕不可用，LIFF在瀏覽器外部中打開（請在LINE中使用）');
 }
