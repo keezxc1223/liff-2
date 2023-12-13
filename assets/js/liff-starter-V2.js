@@ -4,7 +4,7 @@ Author :
 update :
 - https://github.com/keezxc1223/
 */
-var liffId = "1657024923-2r46WKKN";
+var liffId = "2002196001-KldwxBwk";
 var params = location.search.substring(1);
 var url = window.location.href;
 if (params) {
@@ -335,7 +335,7 @@ function sendLiffMessage() {
         console.error("Error while get profile", err);
     });
     if (type == "profile") {
-        sendMessages([{type: "flex", altText: "Profile " + userDisplayName, contents: {type: "bubble", hero: {type: "image", url: userPictureUrl, size: "full", aspectRatio: "1:1", aspectMode: "cover", action: {type: "uri", uri: "line://app/1657024923-2r46WKKN?auto=yes&type=image&downloadUrl=" + userPictureUrl + "&previewUrl=" + userPictureUrl } }, body: {type: "box", layout: "vertical", contents: [{type: "text", text: userDisplayName, align: "center", weight: "bold", size: "xl"}, {type: "box", layout: "vertical", margin: "lg", spacing: "sm", contents: [{type: "text", text: userStatusMessage, wrap: true, color: "#666666", size: "sm", maxLines: 5, flex: 5 }] } ] }, footer: {type: "box", layout: "horizontal", spacing: "sm", contents: [{type: "button", style: "primary", height: "sm", color: "#02afff", action: {type: "uri", label: "Open Chat", uri: "https://line.me/ti/g2/JGUODBE4RE"}}, {type: "button", style: "primary", height: "sm", action: {type: "uri", label: "Profile", uri: "line://app/1657024923-2r46WKKN?auto=yes&type=profile"}}, {type: "spacer", size: "sm"}]}}}]); 
+        sendMessages([{type: "flex", altText: "Profile " + userDisplayName, contents: {type: "bubble", hero: {type: "image", url: userPictureUrl, size: "full", aspectRatio: "1:1", aspectMode: "cover", action: {type: "uri", uri: "line://app/2002196001-KldwxBwk?auto=yes&type=image&downloadUrl=" + userPictureUrl + "&previewUrl=" + userPictureUrl } }, body: {type: "box", layout: "vertical", contents: [{type: "text", text: userDisplayName, align: "center", weight: "bold", size: "xl"}, {type: "box", layout: "vertical", margin: "lg", spacing: "sm", contents: [{type: "text", text: userStatusMessage, wrap: true, color: "#666666", size: "sm", maxLines: 5, flex: 5 }] } ] }, footer: {type: "box", layout: "horizontal", spacing: "sm", contents: [{type: "button", style: "primary", height: "sm", color: "#02afff", action: {type: "uri", label: "Open Chat", uri: "https://line.me/ti/g2/JGUODBE4RE"}}, {type: "button", style: "primary", height: "sm", action: {type: "uri", label: "Profile", uri: "line://app/2002196001-KldwxBwk?auto=yes&type=profile"}}, {type: "spacer", size: "sm"}]}}}]); 
     } else if (type == "text") {
         sendMessages([{
             type: "text",
